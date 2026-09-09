@@ -22,3 +22,17 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+let montantEmprunte = 100000
+let dureeEnMois = 24
+let revenuMensuel = 8000
+let mensualité = montantEmprunte / dureeEnMois
+if (mensualité <=revenuMensuel * 0.3 ){
+    console.log("pret accorde");   
+}
+else if(revenuMensuel>= 10000){
+    let dureeEnMoisproposè = montantEmprunte /(revenuMensuel* 0.3) 
+console.log("en proposent de augmentè la duree"+dureeEnMoisproposè);}
+else {
+    console.log("pret refusè");
+}
+    

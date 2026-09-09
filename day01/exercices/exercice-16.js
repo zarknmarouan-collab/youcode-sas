@@ -15,3 +15,13 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+let numéro ="0612345678"
+if(typeof numéro ==="String" && numéro.length===10)
+{
+    console.log("le numèro est valide");
+    
+}else{
+    console.log("le numèro est non valid");
+    
+}
+    
