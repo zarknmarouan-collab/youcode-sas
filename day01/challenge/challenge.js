@@ -29,7 +29,7 @@ let mensualité = montantEmprunte / dureeEnMois
 if (mensualité <=revenuMensuel * 0.3 ){
     console.log("pret accorde");   
 }
-else if(revenuMensuel>= 10000){
+else if(revenuMensuel> 10000){
     let dureeEnMoisproposè = montantEmprunte /(revenuMensuel* 0.3) 
 console.log("en proposent de augmentè la duree"+dureeEnMoisproposè);}
 else {
