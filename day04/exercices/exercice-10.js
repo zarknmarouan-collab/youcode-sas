@@ -1,21 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 02 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * LE MULTIPLICATEUR
+ * JOUR 04 · EXERCICE 10 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * EXTRACTION DE NOM DE DOMAINE
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction fléchée multiplier(a, b) qui retourne le produit de a et b.
+ * Écrivez une fonction qui prend une adresse email (ex: "contact@youcode.ma") et retourne uniquement le domaine ("youcode.ma"). *Indice : Combinez indexOf et slice ou utilisez split.*
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-02
- * ▶️ Commande : node day03/exercices/exercice-02.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-10
+ * ▶️ Commande : node day04/exercices/exercice-10.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
- multiplier : (a, b)=>{
-    return a*b
-}
-console.log(5*4)

@@ -15,3 +15,31 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+function additionner (a,b){
+    return a+b
+}
+function soustraction (a,b){
+    return a-b
+}
+function multiplication (a,b){
+    return a*b
+}
+function diviser (a,b){
+    return a/b
+}
+function calculatrice(a, b, signe){
+    switch(signe) {
+case '*':
+return  multiplication (a,b)
+case '-':
+return soustraction (a,b)
+case '+':
+return additionner (a,b)
+case '/':
+return diviser (a,b)
+default :
+return "opération non valide"
+    }
+}
+console.log( calculatrice(215, 7, '/'))
+console.log(calculatrice(24, 8, '-'))

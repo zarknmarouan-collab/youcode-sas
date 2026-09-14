@@ -1,28 +1,28 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
- * FACTORIELLE ENCAPSULÉE
+ * JOUR 04 · EXERCICE 11 · NIVEAU 2 : CONSOLIDATION (INTERMÉDIAIRES)
+ * GÉNÉRATEUR D'ACRONYME
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Convertissez votre logique de factorielle (Day 02) en une fonction calculerFactorielle(n). Si n = 0, la fonction doit retourner 1.
+ * À partir de la phrase "Hyper Text Markup Language", retournez "HTML".
+ * Indice : Découpez en mots, bouclez, prenez la première lettre de chaque mot, mettez en majuscule, et rejoignez le tout.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-11
- * ▶️ Commande : node day03/exercices/exercice-11.js
+ * ▶️ Commande : node day04/exercices/exercice-11.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
-function  calculerFactorielle(n){
-    if(n === 0){
-        return 1
-    }
-    let résultat = 1
-    for(let i = 1; i <= n; i ++){
-     résultat *= i
-    }return résultat
-    }
-    console.log(calculerFactorielle(10));
-    
+function irraoi(phrase){
+    let code = phrase.split(" ")
+    let result = ""
+for( let word of code){
+    result+= word[0]
+}
+return result
+}
+console.log(irraoi("Hyper Text Markup Language"))
+

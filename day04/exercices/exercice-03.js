@@ -1,21 +1,23 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 02 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * LE MULTIPLICATEUR
+ * JOUR 04 · EXERCICE 03 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * MAJUSCULES ET MINUSCULES
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction fléchée multiplier(a, b) qui retourne le produit de a et b.
+ * Mettez "youcode" entièrement en majuscules, et "MAROC" entièrement en minuscules.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-02
- * ▶️ Commande : node day03/exercices/exercice-02.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-03
+ * ▶️ Commande : node day04/exercices/exercice-03.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
- multiplier : (a, b)=>{
-    return a*b
-}
-console.log(5*4)
+let a = "youcode"
+let b = "MAROC"
+a = a.toUpperCase()
+b = b.toLowerCase()
+console.log(a)
+console.log(b)

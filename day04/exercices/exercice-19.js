@@ -1,21 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 02 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * LE MULTIPLICATEUR
+ * JOUR 04 · EXERCICE 19 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * VALIDATEUR DE PLAQUE D'IMMATRICULATION (REGEX BASIQUE)
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction fléchée multiplier(a, b) qui retourne le produit de a et b.
+ * Simulez la vérification d'une plaque d'immatriculation marocaine. Le format attendu est "1234-A-56" ou "12345-AB-6". Pour simplifier, vérifiez qu'elle contient deux tirets et qu'une des sections au milieu est une lettre. L'utilisation d'expressions régulières (Regex) est recommandée ici !
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-02
- * ▶️ Commande : node day03/exercices/exercice-02.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-19
+ * ▶️ Commande : node day04/exercices/exercice-19.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
- multiplier : (a, b)=>{
-    return a*b
-}
-console.log(5*4)

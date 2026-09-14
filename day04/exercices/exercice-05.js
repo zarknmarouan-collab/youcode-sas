@@ -1,21 +1,17 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 02 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * LE MULTIPLICATEUR
+ * JOUR 04 · EXERCICE 05 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * TROUVER LA POSITION
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction fléchée multiplier(a, b) qui retourne le produit de a et b.
+ * Trouvez et affichez l'index (la position) du premier espace dans la phrase "Bonjour tout le monde".
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-02
- * ▶️ Commande : node day03/exercices/exercice-02.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-05
+ * ▶️ Commande : node day04/exercices/exercice-05.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
- multiplier : (a, b)=>{
-    return a*b
-}
-console.log(5*4)

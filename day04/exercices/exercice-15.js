@@ -1,21 +1,18 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 02 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * LE MULTIPLICATEUR
+ * JOUR 04 · EXERCICE 15 · NIVEAU 3 : DÉFI (AVANCÉS)
+ * VÉRIFICATEUR D'ANAGRAMME
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction fléchée multiplier(a, b) qui retourne le produit de a et b.
+ * Vérifiez si "chien" et "niche" sont des anagrammes (elles contiennent exactement les mêmes lettres, même quantité).
+ * Indice : vous pouvez les transformer en tableau, les trier, et les rejoindre.
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-02
- * ▶️ Commande : node day03/exercices/exercice-02.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-15
+ * ▶️ Commande : node day04/exercices/exercice-15.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
- multiplier : (a, b)=>{
-    return a*b
-}
-console.log(5*4)

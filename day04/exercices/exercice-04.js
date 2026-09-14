@@ -1,21 +1,27 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 02 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * LE MULTIPLICATEUR
+ * JOUR 04 · EXERCICE 04 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * VÉRIFICATION D'EMAIL
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction fléchée multiplier(a, b) qui retourne le produit de a et b.
+ * Créez une fonction qui prend un email et retourne true s'il contient le caractère "@".
  *
- * 📖 Consigne détaillée : ../03-exercices.md#exercice-02
- * ▶️ Commande : node day03/exercices/exercice-02.js
+ * 📖 Consigne détaillée : ../03-exercices.md#exercice-04
+ * ▶️ Commande : node day04/exercices/exercice-04.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
- multiplier : (a, b)=>{
-    return a*b
+function todo(email){
+    if ( email.includes("@")){
+        return true
+    }else{
+        return false
+    }
+    
+    
 }
-console.log(5*4)
+console.log(todo("dvlm,dd@ff5.com"));

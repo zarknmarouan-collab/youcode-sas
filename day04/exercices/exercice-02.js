@@ -1,21 +1,23 @@
 /**
  * ─────────────────────────────────────────────────────────────
- * JOUR 03 · EXERCICE 02 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
- * LE MULTIPLICATEUR
+ * JOUR 04 · EXERCICE 02 · NIVEAU 1 : FONDATIONS (DÉBUTANTS)
+ * ACCÈS PAR INDEX
  * ─────────────────────────────────────────────────────────────
  *
  * 🎯 MISSION
- * Créez une fonction fléchée multiplier(a, b) qui retourne le produit de a et b.
+ * Déclarez mot = "Programmation". Affichez la première lettre (index 0) et la toute dernière lettre en utilisant mot.length - 1.
  *
  * 📖 Consigne détaillée : ../03-exercices.md#exercice-02
- * ▶️ Commande : node day03/exercices/exercice-02.js
+ * ▶️ Commande : node day04/exercices/exercice-02.js
  */
 'use strict';
 
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
- multiplier : (a, b)=>{
-    return a*b
-}
-console.log(5*4)
+let mot = "Programmation"
+console.log(mot[0]);
+console.log(mot[mot.length-1]);
+
+
+
