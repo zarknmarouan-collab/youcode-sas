@@ -15,3 +15,13 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+function compterMots(chaine) {
+    let mots = chaine.split(' ');
+    
+    let motsValides = mots.filter(mot => mot !== "");
+    
+    return motsValides.length;
+}
+
+
+console.log(compterMots( "*Attention aux espaces multiples !")); 

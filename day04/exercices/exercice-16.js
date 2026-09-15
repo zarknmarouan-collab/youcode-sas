@@ -15,3 +15,15 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+function tweet(str){
+    let tableau = str.split(" ")
+    let hashtags =[];
+    for (let i=0; i<tableau.length; i++){
+       
+        if (tableau[i][0] === "#") {
+             hashtags.push(tableau[i])
+        }
+    }
+    return hashtags
+}
+console.log(tweet("Beau temps à #Nador aujourd'hui avec la team #YouCode !"));

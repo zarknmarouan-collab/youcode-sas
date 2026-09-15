@@ -15,3 +15,15 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+let ippo ="Ne sois pas idiot, réfléchis avant de parler."
+let tab = ippo.split(" ")
+let ff5 = "idiot"
+for(let i = 0; i < tab.length; i++){
+    
+    if(tab[i].includes(ff5)){
+       tab[i] = tab[i].replace(ff5,"*");
+    }   
+
+}
+
+console.log(tab.join(" "))

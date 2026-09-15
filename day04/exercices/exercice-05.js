@@ -15,3 +15,13 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+let phrase ="Bonjour tout le monde"
+let vide = 0
+for( let i = 0; i <= phrase.length; i ++ ){
+    if( phrase [i]== " "){
+vide = i
+break
+
+    }
+}
+console.log(vide);
